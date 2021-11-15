@@ -1,7 +1,11 @@
+import MainNavigation from './components/layout/MainNavigation';
+import AllMeetupsPage from './pages/AllMeetups';
+
 function App() {
   return (
     <div>
-      <h1>My todos</h1>
+      <MainNavigation />
+      <AllMeetupsPage />
     </div>
   );
 }
